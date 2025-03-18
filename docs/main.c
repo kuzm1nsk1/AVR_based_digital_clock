@@ -11,7 +11,7 @@
 #include "ds3231.h"
 #include "tmp36.h"
 
-//
+
 int8_t menuActive = 0;
 int8_t menuPos = 0;
 int8_t subMenuPos = 0;
