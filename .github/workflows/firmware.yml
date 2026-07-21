@@ -1,0 +1,35 @@
+name: firmware
+
+on:
+  push:
+    paths:
+      - "firmware/**"
+      - ".github/workflows/firmware.yml"
+  pull_request:
+    paths:
+      - "firmware/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install AVR toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-avr avr-libc
+
+      - name: Build
+        working-directory: firmware
+        run: make
+
+      - name: Size report
+        working-directory: firmware
+        run: make size
+
+      - name: Upload hex
+        uses: actions/upload-artifact@v4
+        with:
+          name: avr_clock-hex
+          path: firmware/avr_clock.hex

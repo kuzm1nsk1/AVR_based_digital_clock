@@ -1,0 +1,15 @@
+# ---- Firmware build artifacts ----
+*.o
+*.elf
+*.hex
+*.map
+*.lst
+build/
+firmware/build/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+*.swp
