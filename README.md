@@ -86,7 +86,7 @@ The rotary encoder drives everything — rotate to move/adjust, press to select.
 
 ## Demonstration
 
-![Video](docs/images/avr_clock.mp4)
+https://github.com/user-attachments/assets/7fb0cce0-9049-4a52-80a3-d8663736d5d3
 
 ## Troubleshooting
 
