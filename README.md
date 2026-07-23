@@ -6,7 +6,7 @@
 
 A bare-metal digital clock running on a **standalone ATmega328P** with a
 **DS3231** RTC for timekeeping. It's a from-scratch, no-Arduino rewrite of the
-[GPS synchronized clock](https://github.com/kuzm1nsk1/arduino_GPS_synchronized_clock):
+[GPS synchronized clock](https://github.com/kuzm1nsk1/GPS_synchronized_clock):
 direct register access, custom peripheral drivers, and a rotary-encoder menu on a 32×8 LED matrix.
 
 ![Clock_front](docs/images/clock_front.png)
