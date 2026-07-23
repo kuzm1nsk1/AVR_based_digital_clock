@@ -36,18 +36,18 @@ Standalone ATmega328P (16 MHz crystal). Full parts list:
 | Ref | Qty | Part | Value |
 |-----|-----|------|-------|
 | U1 | 1 | ATmega328P | — |
-| U2 | 1 | DS3231 | RTC module |
-| U3 | 1 | MAX7219 matrix | 32×8 |
-| U4 | 1 | TMP36 | Temp sensor |
+| U3 | 1 | DS3231 | RTC module |
+| U4 | 1 | MAX7219 matrix | 32×8 |
+| U2 | 1 | TMP36 | Temp sensor |
 | Y1 | 1 | Crystal | 16 MHz |
-| C1–C2 | 2 | Capacitor | 22 pF |
-| C3–C6 | 4 | Capacitor | 100 nF |
+| C2,C3 | 2 | Capacitor | 22 pF |
+| C1,C4,C5,C6,C8 | 4 | Capacitor | 100 nF |
 | C7 | 1 | Electrolytic | 10 µF |
-| R1–R2 | 2 | Resistor | 4k7 |
-| R3–R4 | 2 | Resistor | 10k |
+| R3,R4 | 2 | Resistor | 4k7 |
+| R1,R2 | 2 | Resistor | 10k |
 | SW1 | 1 | Pushbutton | — |
 | J1 | 1 | DC barrel jack | — |
-| — | 1 | Rotary encoder | — |
+| SW3 | 1 | Rotary encoder | — |
 
 Datasheets: [ATmega328P](docs/datasheets/atmega328p_datasheet.pdf) ·
 [DS3231](docs/datasheets/ds3231_datasheet.pdf) ·
